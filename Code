@@ -1,0 +1,16 @@
+class Base:
+  @classmethod
+  def getfirst_name(self):
+    self.first_name = input("Enter your first name: \n".title())
+    return self.first_name
+  @classmethod
+  def getlast_name(self):
+    self.last_name = input("Enter your last name: \n".title())
+    return self.last_name
+  @classmethod
+  def getuser_id(self):
+    self.user_id = input("Enter your id: \n".title())
+    return self.user_id
+  @classmethod
+  def print_info(self):
+    print('Welcome', "{} {}".format(self.first_name, self.last_name, self.user_id).title())
