@@ -1,8 +1,9 @@
+###### Done by Brianna Chery
 import sqlite3
 database = sqlite3.connect("assignment5.db")
 cursor = database.cursor()
 
-# 4 • Log-in, log-out (all users). ##### DONE #########
+# 4 • Log-in, log-out (all users).
 
 def log_in_log_out():
     print("You have selected option 4. Log-in, log-out (all users).")
